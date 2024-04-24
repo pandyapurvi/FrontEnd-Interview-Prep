@@ -1,0 +1,33 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	margin: 0 auto;
+	padding: 0 1rem;
+	align-items: center;
+}
+.btn {
+	width: 50%;
+	background-color: #f1f1f1;
+	color: #333;
+	cursor: pointer;
+	padding: 1rem;
+	text-align: left;
+	border: none;
+	outline: none;
+	margin-bottom: 20px;
+}
+
+.btnText {
+	text-align: center;
+}
+.item {
+	background-color: aqua;
+	padding: 20px;
+	margin-bottom: 20px;
+	justify-content: space-between;
+}
+.content {
+	display: flex;
+	justify-content: space-around;
+}
