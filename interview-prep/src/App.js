@@ -7,6 +7,7 @@ import ImageSlider from './Components/ImageSlider';
 import ImageDataLoader from './Components/ImageDataLoader';
 import TreeViewSideNav from './Components/TreeViewSideNav';
 import QRCodeGenerator from './Components/QRCodeGenerator';
+import LightDarkTheme from './Components/LightDarkTheme';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ImageDataLoader />
       <TreeViewSideNav />
       <QRCodeGenerator />
+      <LightDarkTheme />
     </div>
   );
 }
