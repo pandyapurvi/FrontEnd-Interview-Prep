@@ -1,17 +1,17 @@
 const sideMenu = [
 	{
-		label: 'home',
+		label: 'Home',
 		to: "/"
 	}, {
-		label: 'profile',
+		label: 'Profile',
 		to: "/profile",
 		children: [
 			{
-				label: 'details',
+				label: 'Details',
 				to: "details",
 				children: [
 					{
-						label: 'personal',
+						label: 'Personal',
 						to: "personal"
 					}
 				]
@@ -19,23 +19,23 @@ const sideMenu = [
 		]
 	},
 	{
-		label: 'settings',
+		label: 'Settings',
 		to: "/settings",
 		children: [
 			{
-				label: 'security',
+				label: 'Security',
 				to: "security"
 			},
 			{
-				label: 'notifications',
+				label: 'Notifications',
 				to: "notifications",
 				children: [
 					{
-						label: 'email',
+						label: 'Email',
 						to: "email"
 					},
 					{
-						label: 'sms',
+						label: 'Sms',
 						to: "sms"
 					}
 				]
