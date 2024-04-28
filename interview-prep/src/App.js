@@ -9,6 +9,7 @@ import TreeViewSideNav from './Components/TreeViewSideNav';
 import QRCodeGenerator from './Components/QRCodeGenerator';
 import LightDarkTheme from './Components/LightDarkTheme';
 import ScrollBar from './Components/ScrollBar';
+import TabsContainer from './Components/Tabs/TabsContainer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <QRCodeGenerator />
       <LightDarkTheme />
       <ScrollBar />
+      <TabsContainer />
     </div>
   );
 }

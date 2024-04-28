@@ -21,7 +21,6 @@ const ScrollBar = ({ url }) => {
 	}, [])
 
 	return <div >
-		<h1>Custom ScrollBar Component</h1>
 		<div  className='scroll-bar'>
 			<div style={{ width: `${scrollPercentage}%` }} className='scroll-bar-thumb'></div>
 		</div>
