@@ -10,6 +10,7 @@ import QRCodeGenerator from './Components/QRCodeGenerator';
 import LightDarkTheme from './Components/LightDarkTheme';
 import ScrollBar from './Components/ScrollBar';
 import TabsContainer from './Components/Tabs/TabsContainer'
+import Modal from './Components/ModalComponent/Modal';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <LightDarkTheme />
       <ScrollBar />
       <TabsContainer />
+      <Modal />
     </div>
   );
 }
