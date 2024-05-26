@@ -11,6 +11,8 @@ import LightDarkTheme from './Components/LightDarkTheme';
 import ScrollBar from './Components/ScrollBar';
 import TabsContainer from './Components/Tabs/TabsContainer'
 import Modal from './Components/ModalComponent/Modal';
+import GithubProfileFounder from './Components/GithubProfileFounder';
+import SearchAutoComplete from './Components/SearchAutoComplete';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       <ScrollBar />
       <TabsContainer />
       <Modal />
+      <GithubProfileFounder />
+      <SearchAutoComplete />
     </div>
   );
 }
